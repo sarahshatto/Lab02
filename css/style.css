@@ -6,10 +6,9 @@ h1 { color: #F2CB05;
 }
 
 p{
-      background-color: white(4, 3, 12);
-      color: #FF5900; 
-      padding: 20px;
+      background-color: #FF5900; 
+      color: white;
+      padding: 300px;
       text-align:left;
     }
 
-    
