@@ -2,13 +2,16 @@
   font-family: Arial, Helvetica, sans-serif;
 
 }
-h1 { color: #F2CB05;
+h1 { background-color: #F2CB05; 
+  color: white;
+  font-size: 20em;
 }
 
 p{
       background-color: #FF5900; 
       color: white;
-      padding: 300px;
+      padding-top: 100px;
+      padding-bottom: 100px;
       text-align:left;
     }
 
