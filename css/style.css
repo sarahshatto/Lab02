@@ -4,15 +4,33 @@
 }
 h1 { background-color: #F2CB05; 
   color: white;
-  font-size: 5em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-left: 50%;
 }
 
-p{
+#p1 {
       background-color: #FF5900; 
       color: white;
       padding-top: 50px;
       padding-bottom: 50px;
+      padding-left: 20px;
     }
 
+#p2 {
+      background-color: #AEE1D4; 
+      color: white;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 60px;
+    }
+
+#p3 {
+      background-color: #F26363; 
+      color: white;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 20px;
+    }
