@@ -4,14 +4,15 @@
 }
 h1 { background-color: #F2CB05; 
   color: white;
-  font-size: 20em;
+  font-size: 5em;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 p{
       background-color: #FF5900; 
       color: white;
-      padding-top: 100px;
-      padding-bottom: 100px;
-      text-align:left;
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
 
