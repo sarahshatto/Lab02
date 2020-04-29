@@ -9,6 +9,7 @@ h1 { background-color: #F2CB05;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 50%;
+  padding-right: 100px;
 }
 
 #p1 {
@@ -17,6 +18,7 @@ h1 { background-color: #F2CB05;
       padding-top: 50px;
       padding-bottom: 50px;
       padding-left: 20px;
+      padding-right: 100px;
     }
 
 #p2 {
@@ -25,6 +27,7 @@ h1 { background-color: #F2CB05;
       padding-top: 50px;
       padding-bottom: 50px;
       padding-left: 60px;
+      padding-right: 90px;
     }
 
 #p3 {
@@ -33,4 +36,5 @@ h1 { background-color: #F2CB05;
       padding-top: 50px;
       padding-bottom: 50px;
       padding-left: 20px;
+      padding-right: 100px;
     }
