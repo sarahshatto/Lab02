@@ -1,40 +1,75 @@
-* { background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+* {font-family: Arial, Helvetica, sans-serif;
+  /* font-weight: 600; */
+  text-align:justify;
+  line-height: 1.45em;
+  /* font-size: 1.2em; */
 
 }
 h1 { background-color: #F2CB05; 
+
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 3em;
   padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 50%;
+  padding-bottom: 35px;
+  padding-left: 60px;
   padding-right: 100px;
+  text-transform: uppercase;
 }
 
-#p1 {
-      background-color: #FF5900; 
-      color: white;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      padding-left: 20px;
-      padding-right: 100px;
+h2{
+      font-size: 1.5em;
+      padding-top: 35px;
+      text-transform: uppercase;
     }
-
-#p2 {
+h3{
+      font-size: 1.05em;
+      padding-top: 25px;
+      text-transform: uppercase;
+      font-kerning: 1.1em;
+    }
+  #Bio {
       background-color: #AEE1D4; 
       color: white;
-      padding-top: 50px;
-      padding-bottom: 50px;
+      padding-bottom: 35px;
+      padding-left: 60px;
+      padding-right: 350px;
+    }
+
+  #WorkExperience {
+      background-color: #FF5900; 
+      color: white;
+      padding-bottom: 35px;
+      padding-left: 60px;
+      padding-right:150px;
+    }
+
+ .details{
+   padding-top:10px;
+   padding-left:10px;
+   padding-right:200px;
+   line-height: 1.6em;
+ }   
+
+#Education {
+      background-color: #F26363; 
+      color: white;
+      padding-bottom: 35px;
       padding-left: 60px;
       padding-right: 90px;
     }
 
-#p3 {
-      background-color: #F26363; 
+#Topten {
+      background-color: #94DCF4; 
       color: white;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      padding-left: 20px;
-      padding-right: 100px;
+      padding-bottom: 35px;
+      padding-left: 30px;
+      padding-right: 90px;
+      line-height: 2em;
     }
+
+ul li {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  line-height: 2em;
+}
