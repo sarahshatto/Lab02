@@ -1,6 +1,8 @@
 
 'use strict';
 
+var correctAnswers = 0;
+
 alert('Welcome! please answer a few questions.');
 
 // First Question - for fun, console logs user name for future use.
@@ -17,6 +19,7 @@ var FirstVisit = prompt('Have you visited this website before?').toLowerCase();
 if(FirstVisit === 'yes' || FirstVisit === 'y'){
   alert('Welcome back, ' + visitor +'!');
   console.log('This user has visited the site before');
+  correctAnswers++;
 }
 else if(FirstVisit === 'no' || FirstVisit === 'n'){
   alert('Welcome! This page is apparently all about me... Just like the rest of the world. Humility is my greatest trait. I am extremely humble. Bow before my humility.');
@@ -30,6 +33,7 @@ var sarcasm = prompt('Do you enjoy sarcasm, ' + visitor + '?').toLowerCase();
 if(sarcasm === 'yes' || sarcasm === 'y'){
   alert('How fantastic! Me too!');
   console.log('Correct.');
+  correctAnswers++;
 }
 else if(sarcasm === 'no' || sarcasm === 'n'){
   alert('How fantastic!...We have nothing in common!');
@@ -47,7 +51,7 @@ if(Microsoft === 'yes' || Microsoft === 'y'){
 
 else if(Microsoft === 'no' || Microsoft === 'n'){ alert('Correct! I worked at the Apple Store for the last 6 years.');
   console.log('Correct.');
-
+  correctAnswers++;
 }
 
 //Q4 y/n:
@@ -56,6 +60,7 @@ var H = prompt('Is there an \'H\' in my name?').toLowerCase();
 if(H === 'yes' || H === 'y'){
   alert('Radical, ' + visitor + '! *Zelda treasure chest noise*' );
   console.log('Correct.');
+  correctAnswers++;
 }
 else if (H === 'no' || H === 'n'){ alert('Sarah with an H!');
   console.log('Incorrect.');
@@ -68,6 +73,7 @@ var soccer = prompt('Do I love soccer? (y/n)').toLowerCase();
 if(soccer === 'yes' || soccer === 'y'){
   alert('Yes! WITH MY WHOLE HEART AND SOUL.');
   console.log('Correct.');
+  correctAnswers++;
 }
 else if(soccer === 'no' || soccer === 'n'){ alert('Incorrectamundo. I am annoyingly in love with soccer.');
   console.log('Incorrect.');
@@ -99,6 +105,8 @@ for(var i = 0; i < 4; i++){
 
 if(numberGuess === correctAnswer){
   alert('Great job! My heart is with Ozzie forever');
+  console.log('correct.');
+  correctAnswers++;
 }
 else{
   alert('You were looking for "6"');
@@ -121,6 +129,8 @@ for(var i = 0; i < 6; i++){
     alert('YES! THE BEST!');
     alert('Possible correct answers: Michael, Dwight, Pam, or Creed');
     alert('But honestly, they\'re all fantastic!');
+    console.log('correct.');
+    correctAnswers++;
     break;
   }
   else if(Bestguess === Officeppls[4].toUpperCase() ||
@@ -139,3 +149,4 @@ for(var i = 0; i < 6; i++){
   }
 }
 
+alert('You got ' + correctAnswers + ' right out of 7! Great Job! Thumbs Up!');
