@@ -54,7 +54,7 @@ else if(Microsoft === 'no' || Microsoft === 'n'){ alert('Correct! I worked at th
 var H = prompt('Is there an \'H\' in my name?').toLowerCase();
 
 if(H === 'yes' || H === 'y'){
-  alert('Radical, ' + visitor + ' *Zelda treasure chest noise*' );
+  alert('Radical, ' + visitor + '! *Zelda treasure chest noise*' );
   console.log('Correct.');
 }
 else if (H === 'no' || H === 'n'){ alert('Sarah with an H!');
@@ -135,6 +135,7 @@ for(var i = 0; i < 6; i++){
   }
   else
   {
-    prompt('Who the holy hell is that? Guess again');
+    alert('Who the holy hell is that? Guess again');
   }
 }
+
