@@ -3,27 +3,24 @@
 
 var correctAnswers = 0;
 
-alert('Welcome! please answer a few questions.');
+alert('Welcome to my page! Let\'s play a game... How well do you know me?');
 
 // First Question - for fun, console logs user name for future use.
-var visitor; 
+var visitor;
+
 function fvistor(){
-  visitor = prompt('what is your name?');
-
-
+  visitor = prompt('First, what is your name?');
 }
 
 console.log('the user\'s name is ' + visitor);
+
 fvistor();
 
 // Q1 y/n:
-var FirstVisit
+var FirstVisit;
 
 function fFirstVisit(){
-
   FirstVisit = prompt('Have you visited this website before?').toLowerCase();
-
-
 
   // greeting response
   if(FirstVisit === 'yes' || FirstVisit === 'y'){
@@ -55,15 +52,16 @@ function fSarcasm(){
   }
 }
 fSarcasm();
+
 //Q3 y/n:
 var Microsoft;
 
 function fMicrosoft(){
-  Microsoft = prompt('Did I work at Microsoft? (y/n)').toLowerCase();
+  Microsoft = prompt('Did I work at the Microsoft store? (y/n)').toLowerCase();
 
   if(Microsoft === 'yes' || Microsoft === 'y'){
     alert('Microsoft should be so lucky. ;) ');
-    alert('Just kidding. Love you Microsoft.');
+    alert('....Just kidding. Love you Microsoft.');
     console.log('Incorrect.');
   }
 
@@ -73,6 +71,7 @@ function fMicrosoft(){
   }
 }
 fMicrosoft();
+
 //Q4 y/n:
 var H;
 
@@ -84,12 +83,13 @@ function fH(){
     console.log('Correct.');
     correctAnswers++;
   }
-  else if (H === 'no' || H === 'n'){ alert('Sarah with an H!');
+  else if (H === 'no' || H === 'n'){ alert('Incorrect. It\'s Sarah with an H!');
     console.log('Incorrect.');
 
   }
 }
 fH();
+
 //Q5 y/n:
 
 var soccer;
@@ -108,6 +108,7 @@ function fsoccer(){
   }
 }
 fsoccer();
+
 // Q6, For loop
 var correctAnswer = '6';
 var numberGuess;
@@ -145,10 +146,11 @@ function fnumberGuess(){
   }
 }
 fnumberGuess();
+
 // Q7 For loop
 
 
-var Officeppls = ['Michael', 'Dwight', 'Pam', 'Creed','Jim', 'Kevin', 'Stanley', 'Angela', 'Darryl', 'Toby', 'Erin', 'Kelly', 'Ryan', 'Phyllis', 'Andy', 'Meredith', 'Oscar', 'Nate', 'Mose', 'Devin'];
+var Officeppls = ['Michael', 'Michael Scott', 'Dwight', 'Pam', 'Creed','Jim', 'Kevin', 'Stanley', 'Angela', 'Darryl', 'Toby', 'Erin', 'Kelly', 'Ryan', 'Phyllis', 'Andy', 'Meredith', 'Oscar', 'Nate', 'Mose', 'Devin'];
 var Bestguess;
 
 function fbestGuess(){
@@ -159,11 +161,13 @@ function fbestGuess(){
     if(Bestguess === Officeppls[0].toUpperCase() ||
      Bestguess === Officeppls[1].toUpperCase() ||
      Bestguess === Officeppls[2].toUpperCase() ||
-     Bestguess === Officeppls[3].toUpperCase())
+     Bestguess === Officeppls[3].toUpperCase() ||
+     Bestguess === Officeppls[4].toUpperCase() ||
+     Bestguess === Officeppls[8].toUpperCase())
     {
-      alert('YES! THE BEST!');
+      alert('YES! ' + Bestguess + ' is THE BEST!');
       alert('Possible correct answers: Michael, Dwight, Pam, or Creed');
-      alert('But honestly, they\'re all fantastic!');
+      alert('But honestly, let\'s be real...they\'re all fantastic!');
       console.log('correct.');
       correctAnswers++;
       break;
@@ -172,11 +176,20 @@ function fbestGuess(){
           Bestguess === Officeppls[5].toUpperCase() ||
           Bestguess === Officeppls[6].toUpperCase() ||
           Bestguess === Officeppls[7].toUpperCase() ||
-          Bestguess === Officeppls[8].toUpperCase() ||
           Bestguess === Officeppls[9].toUpperCase() ||
-          Bestguess === Officeppls[10].toUpperCase())
+          Bestguess === Officeppls[10].toUpperCase() ||
+          Bestguess === Officeppls[11].toUpperCase() ||
+          Bestguess === Officeppls[12].toUpperCase() ||
+          Bestguess === Officeppls[13].toUpperCase() ||
+          Bestguess === Officeppls[14].toUpperCase() ||
+          Bestguess === Officeppls[15].toUpperCase() ||
+          Bestguess === Officeppls[16].toUpperCase() ||
+          Bestguess === Officeppls[17].toUpperCase() ||
+          Bestguess === Officeppls[18].toUpperCase() ||
+          Bestguess === Officeppls[19].toUpperCase() ||
+          Bestguess === Officeppls[20].toUpperCase())
     {
-      alert('That\'s an awesome guess! I love ' + Bestguess + ' !, BUT try again...');
+      alert('That\'s an awesome guess! I love ' + Bestguess + '!!!, BUT try again...');
     }
     else
     {
